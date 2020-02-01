@@ -718,7 +718,8 @@ $(function () {
   };
   e.Defaults = {
     nav: !1,
-    navText: ['<span aria-label="Previous">&#x2039;</span>', '<span aria-label="Next">&#x203a;</span>'],
+    navText: ['<span aria-label="Previous"></span>', '<span aria-label="Next"></span>'],
+    // navText: ['<span aria-label="Previous">&#x2039;</span>', '<span aria-label="Next">&#x203a;</span>'],
     navSpeed: !1,
     navElement: 'button type="button" role="presentation"',
     navContainer: !1,
@@ -875,8 +876,8 @@ $(function () {
       }
     },
     autoplay: true,
-    autoplayTimeout: 4000,
-    navText: ["<div id=\"btn-prev-owl\"><img src=\"/assets/image/arrow-left.png\"/></div>", "<div id=\"btn-next-owl\"><img src=\"/assets/image/arrow-right.png\"/></div>"]
+    autoplayTimeout: 5000,
+    // navText: ["<div id=\"btn-prev-owl\"><img src=\"./assets/image/arrow-left.png\"/></div>", "<div id=\"btn-next-owl\"><img src=\"./assets/image/arrow-right.png\"/></div>"]
   })
 });
 // Preloader
