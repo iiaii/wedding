@@ -877,7 +877,7 @@ $(function () {
     },
     autoplay: true,
     autoplayTimeout: 5000,
-    navText: ["<div id=\"btn-prev-owl\"><img src=\"./assets/image/arrow-left.png\"/></div>", "<div id=\"btn-next-owl\"><img src=\"./assets/image/arrow-right.png\"/></div>"]
+    navText: ["<div id=\"btn-prev-owl\"><img src=\"https://hakimwedding.s3.ap-northeast-2.amazonaws.com/image/arrow-left.png\"/></div>", "<div id=\"btn-next-owl\"><img src=\"https://hakimwedding.s3.ap-northeast-2.amazonaws.com/image/arrow-right.png\"/></div>"]
   })
 });
 // Preloader
